@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "BlackNorth";
+  src: url(fonts/blacknorthdemo-mle25-webfont.woff),
+       url(fonts/blacknorthdemo-mle25-webfont.woff2);
+}
+
+#sidebar {
+  width: 30vw;
+  height: 100vh;
+  background-image: url("olena-sergienko-3BlVILvh9hM-unsplash.jpg");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#sidebar p {
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  font-size: 0.9em;
+  align-self: center;
+}
