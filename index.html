@@ -13,11 +13,46 @@
       <div id="odin-text">ODIN</div>
     </div>
     <div id="credit">
-      <p>Photo by <a href="https://unsplash.com/@olenkasergienko">Olena Sergienko</a> on <a href="https://unsplash.com/photos/3BlVILvh9hM">Unsplash</a></p>
+      <p>Photo by <a href="https://unsplash.com/@olenkasergienko">Olena Sergienko</a> on 
+        <a href="https://unsplash.com/photos/3BlVILvh9hM">Unsplash</a></p>
     </div>
   </div>
-  <div>
-
+  <div id="main-container">
+    <div id="sales-text">
+      <p>This is not a real online service! You know you need something like this in your life to help
+        you realize your deepest dreams. Sign up now to get started.
+      </p>
+      <p>You know you want to.</p>
+    </div>
+    <div id="form-container">
+      <p>Let's do this!</p>
+      <form action="example.htm" method="get" id="sign-up-form">
+        <label for="firstname">FIRST NAME<input type="text" id="firstname" name="firstname" /></label>
+        <label for="lastname">LAST NAME<input type="text" id="lastname" name="lastname" /></label>
+        <label for="email">EMAIL ADDRESS<input type="email" id="email" name="useremail" /></label>
+        <label for="phone">PHONE NUMBER<input type="tel" id="phone" name="userphone" /></label>
+        <label for="pwd">PASSWORD
+          <input type="password" 
+                 id="pwd"
+                 name="password"
+                 minlength="8"
+                 maxlength="16" 
+                 required />
+        </label>
+        <label for="pwd-confirm">CONFIRM PASSWORD
+          <input type="password" 
+                 id="pwd-confirm" 
+                 name="password-confirm" 
+                 minlength="8"
+                 maxlength="16"
+                 required />
+        </label>
+      </form>
+    </div>
+    <div id="submit-div">
+      <button form="sign-up-form">Create Account</button>
+      <p>Already have an account? <a href="example.com">Log in</a></p>
+    </div>
   </div>
 </body>
 </html>
