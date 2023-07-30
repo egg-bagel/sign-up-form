@@ -8,15 +8,53 @@
   width: 30vw;
   height: 100vh;
   background-image: url("olena-sergienko-3BlVILvh9hM-unsplash.jpg");
-
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+  position: relative;
 }
 
-#sidebar p {
+#logo {
+  height: 20%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  position: absolute;
+  top: 38%;
+
+  background-color: rgba(30, 30, 30, 0.65);
+}
+
+#logo #odin-text {
+  font-family: "BlackNorth", sans-serif;
+  font-size: 100px;
+  color: white;
+}
+
+#logo div img {
+  height: 100px;
+}
+
+#sidebar #credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#credit p {
   color: white;
   font-family: "Helvetica", sans-serif;
   font-size: 0.9em;
-  align-self: center;
+}
+
+#sidebar a:visited {
+  color: white;
 }
